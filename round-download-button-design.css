@@ -1,0 +1,22 @@
+
+@keyframes hoverButton {
+    0% {width: 50px; height: 50px;}
+    100% {width: 65px; height: 65px;}
+}
+
+
+button {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(185, 250, 185);
+    animation: hoverButton 1s;
+    width: 65px; 
+    height: 65px;
+}
